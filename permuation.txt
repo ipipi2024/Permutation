@@ -1,0 +1,24 @@
+Permuation
+What is permutation?
+
+A permutation is an arrangement of objects in a specific order.
+For example, if you have three letters — A, B, and C —
+the possible permutations (ways to arrange them) are:
+ABC, ACB, BAC, BCA, CAB, CBA
+There are 6 permutations in total.
+
+Is there a way we can simply calculate the permutation without having to manually list all the different arrangements
+
+Let us try to to derive a formula for that.
+Let say we have letter A. then there is only one permutation, there is only one way to arrange it. 
+We can denote that simply like this: A => A = 1P, this means that A has only one way of arranging it. 1P simply means 1 permeations for simplicity instead of listing all the actual permeations.
+Then consequently,
+A => A = 1P
+AB => AB, BA = 2P
+ABC => ABC, ACB, BAC, BCA, CAB, CBA = 6P
+ABCD => ABCD, ABDC, ACBD, ACDB, ADBC, ADCB, BACD, BADC, BCAD, BCDA, BDAC, BDCA, CABD, CADB, CBAD, CBDA, CDAB, CDBA, DABC, DACB, DBAC, DBCA, DCAB, DCBA = 24P
+
+
+
+
+
